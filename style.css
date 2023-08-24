@@ -10,11 +10,12 @@
     font-size: 62.5%;
     font-family: 'Mulish', sans-serif;
 
-    --color-base-white: #ffffff;
-    --color-base-gray-100: #f5f5f5;
-    --color-base-gray-300: #8d8d99;
-    --color-base-gray-500: #3D3D3D;
-    --color-base-gray-900: #202024;
+    --color-base:280;
+    --color-base-white: hsl(0, 0%, 100%);
+    --color-base-gray-100: hsl(var(--color-base), 45%, 92%);
+    --color-base-gray-300: hsl(var(--color-base), 16%, 65%);
+    --color-base-gray-500: hsl(var(--color-base), 65%, 25%);
+    --color-base-gray-900: hsl(var(--color-base), 73%, 16%);
 }
 
 html,
